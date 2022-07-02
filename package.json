@@ -17,6 +17,7 @@
     "@babel/preset-env": "^7.15.6",
     "@babel/preset-react": "^7.14.5",
     "@pmmmwh/react-refresh-webpack-plugin": "^0.5.7",
+    "ali-oss": "^6.17.1",
     "autoprefixer": "^10.4.7",
     "babel-eslint": "^9.0.0",
     "babel-loader": "^8.2.2",
