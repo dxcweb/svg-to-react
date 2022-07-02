@@ -1,0 +1,7 @@
+.Options{
+    padding: 15px;
+}
+.Options .checkbox{
+    margin-bottom: 15px;
+    display: flex;
+}

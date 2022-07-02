@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0,viewport-fit=cover"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="renderer" content="webkit"/>
+    <title>svg to react - 将 SVG 转换为 React 组件</title>
+    <meta name="description" content="svg在线压缩并转换为jsx语法的react组件，在react中优雅的使用svg。"/>
+    <meta name="keywords" content="svg转react,react使用svg,svg压缩,svg转jsx,在线,svg,转换,react,jsx"/>
+    <link rel="icon" href="https://code.tuobacco.com/convert/logo.ico"/>
+    
+    <% for(var i=0; i < htmlWebpackPlugin.files.css.length; i++) {%><link rel="stylesheet" href="<%= htmlWebpackPlugin.files.css[i] %>"></link><% } %> 
+</head>
+<body>
+    <div id="root" ></div>
+    <% for(var i=0; i < htmlWebpackPlugin.files.js.length; i++) {%><script type="text/javascript" src="<%= htmlWebpackPlugin.files.js[i] %>"></script><% } %> 
+</body>
+</html>

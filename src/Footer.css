@@ -1,0 +1,13 @@
+.Footer{
+    height: 30px;
+    background-color: #434343;
+    padding-left: 16px;
+    color: #fff;
+}
+.Footer a{
+    margin-right: 16px;
+    font-size: 12px;
+}
+.Footer a:hover{
+    text-decoration: underline;
+}

@@ -1,0 +1,13 @@
+{
+  "extends": "eslint-config-umi",
+  "plugins": ["prettier"], // eslint-plugin-prettier
+  "rules": {
+    "prettier/prettier": ["error", {
+      "printWidth":140,
+      // "singleQuote": true,
+      "jsxSingleQuote": true,
+      "trailingComma": "all",
+      "arrowParens":"always"
+    }]
+  }
+}
