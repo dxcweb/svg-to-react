@@ -65,7 +65,7 @@ class Transform {
         plugins.push(key);
       }
     });
-
+    svg = svg.replaceAll("mix-blend-mode:passthrough", "");
     const cleaned = svgo.optimize(svg, {
       multipass: true, // boolean. false by default
       plugins: [
