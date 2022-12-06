@@ -41,7 +41,7 @@ class Transform {
       "removeNonInheritableGroupAttrs", //删除不可继承组的“表示”属性
       "removeUselessStrokeAndFill", //删除无用stroke和fill属性
       "removeUnusedNS", //删除未使用的命名空间声明
-      "cleanupIDs", //删除未使用的并缩小使用的 ID
+      "cleanupIds", //删除未使用的并缩小使用的 ID
       "cleanupNumericValues", //将数值四舍五入到固定精度，删除默认px单位
       "moveElemsAttrsToGroup", //将元素的属性移动到它们的封闭组
       "moveGroupAttrsToElems", //将一些组属性移动到包含的元素
@@ -144,7 +144,7 @@ class Transform {
       if (key === "class" || key === "className") {
         const regExp = new RegExp(props[key], "gim");
         if (this.cleaned.match(regExp).length === 1) {
-          break;
+          continue;
         }
       }
       //   str.match(/ab/igm).length
