@@ -28,13 +28,13 @@ class Transform {
       "removeMetadata", //删除<metadata>
       "removeTitle", //删除<metadata>
       "removeDesc", //删除<desc>
-      "removeEditorsNSData", //删除编辑器命名空间、元素和属性
-      "removeHiddenElems", // 删除隐藏元素
-      "removeEmptyText", // 删除空的文本元素
-      "removeEmptyContainers", // 移除空的 Container 元素
-      "removeViewBox", // 尽可能删除viewBox属性
-      "cleanupEnableBackground", // 尽可能删除或清理enable-background属性
-      "convertColors", // 转换颜色 rgb() 转化为 #rrggbb
+      // "removeEditorsNSData", //删除编辑器命名空间、元素和属性
+      // "removeHiddenElems", // 删除隐藏元素
+      // "removeEmptyText", // 删除空的文本元素
+      // "removeEmptyContainers", // 移除空的 Container 元素
+      // "removeViewBox", // 尽可能删除viewBox属性
+      // "cleanupEnableBackground", // 尽可能删除或清理enable-background属性
+      // "convertColors", // 转换颜色 rgb() 转化为 #rrggbb
       "convertPathData", // 将路径数据转换为相对或绝对数据（以较短者为准），将一段转换为另一段，修剪无用的分隔符，智能舍入等等
       "convertTransform", // 将多个转换合并为一个，将矩阵转换为短别名等等
       "removeUnknownsAndDefaults", // 移除未知元素内容和属性，移除具有默认值的属性
